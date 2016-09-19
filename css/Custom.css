@@ -1,0 +1,485 @@
+/*HEADER STYLING*/
+
+header {
+	background-color: #57c3ba;
+}
+
+#funnypose p {
+	font-family: 'Slackey', cursive;
+	font-size: .85rem;
+	margin: 0;
+	padding-top: 100px;
+	padding-right: 10px;
+	background-image: url(../img/funnypose.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	color: #401133;
+    vertical-align: text-bottom;
+}
+
+/*LARGE NAVIGATION STYLING*/
+
+.fullcolor {
+	background-color: #f59f20;
+}
+
+.top-bar {
+	background-color: #f59f20;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #f59f20;
+	color: #401133;
+	font-size: 1.1rem;
+	border-right: 1px solid #F7B24D;
+}
+
+.top-bar-section li:hover:not(.has-form) a:not(.button) {
+	background-color: #DC8F1D;
+	color: #F4F1F3;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+	background-color: #F8BC63;
+	color: #66415C;
+	font-size: 1.2rem;
+}
+
+.top-bar-section li.active:hover:not(.has-form) a:not(.button) {
+	background-color: #DC8F1D;
+	color: #F4F1F3;
+}
+
+/*MOBILE NAVIGATION STYLING*/
+
+.tab-bar {
+	background-color: #f59f20;
+	color: #401133;	
+}
+
+.left-off-canvas-menu {
+	background-color: #f59f20;
+	color: #401133;
+}
+
+.left-off-canvas-menu:hover {
+	background-color: #DC8F1D;
+	color: #fff;
+}
+
+ul.off-canvas-list li label {
+	background-color: #f59f20;
+	color: #fff;
+}
+
+ul.off-canvas-list li:hover label {
+	background-color: #DC8F1D;
+	color: #fff;
+}
+
+ul.off-canvas-list li a {
+	color: #401133;
+	background-color: #f59f20;
+}
+
+ul.off-canvas-list li a:hover {
+	background-color: #dc8f1d;
+	color: #fff;
+}
+
+/*INDEX and MAIN CONTENT STLYING*/
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
+
+#maincontent h1 {
+	font-family: 'Slackey', cursive;
+	text-align: center;
+	color: #361433;
+	font-size: 2.2rem;
+}
+
+#maincontent p {
+	font-family: 'Raleway', sans-serif;
+	
+	color: #361433;
+	font-size: 1.2rem;
+}
+
+#maincontent h2 {
+	font-family: 'Slackey', cursive;
+	text-align: center;
+	color: #235954;
+}
+
+.iconlinks a img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+/* MOVIE SCHEDULE PAGE SPECIFIC STYLES */
+
+#caturdaymovie {
+	margin: 10px;
+	padding: 15px 15px 15px 25px;
+}
+
+#caturdaymovie h2 {
+	font-family: 'Slackey', cursive;
+	color: #361433;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+#movieschedule img.movieschedule {
+	display: inline;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 10px;
+}
+
+#movieschedule h1 {
+	font-family: 'Slackey', cursive;
+	font-size: 2.25rem;
+	color: #235954;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 10px;
+}
+
+img.movie {
+	float: right;
+	margin: 0px 0 20px 20px;
+}
+
+h3.movieschedule {
+	font-family: 'Slackey', cursive;
+	font-size: 1.35rem;
+	color: #377e78;
+}
+
+hr.movie {
+	color: #99ca3c;
+	background-color: #99ca3c;
+	border: solid #99ca3c;
+	border-width: 1px 0 0;
+  	clear: both;
+  	height: 0;
+}
+
+p.movie {
+	font-family: 'Slackey', cursive;
+	text-align: center;
+	color: #377e78;
+}
+
+p.caturdaymovie {
+	font-family: 'Raleway', sans-serif;
+	
+	font-size: 1.2rem;
+	color: #361433;
+}
+
+.moviebox {
+	background-color: #99ca3c;
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+/* SUCCESS STORIES SPECIFIC STYLES */
+
+#adopt p {
+	text-align: center;
+	color: #235954;
+}
+
+#adopt h1 {
+	font-family: 'Slackey', cursive;
+	font-size: 2.25rem;
+	color: #235954;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 10px;
+}
+
+#adopt img.adopt {
+	display: inline;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 10px;
+}
+
+a.modallink {
+	color: #401133;
+}
+img.adoptionimg {
+	border: 1px solid #401133;
+}
+
+/*Modal Window Styles*/
+
+.reveal-modal {
+    padding: 0;
+    max-width: 950px; /* always will be maximum image width */
+    background: transparent;
+}
+
+#ModalOne {
+	padding: 40px;
+	border: 2px solid #99ca3c;
+	margin: 30px;
+	background-color: #fff;
+	background-image: url(../img/orangepattern.png);
+}
+
+#ModalTwo {
+	padding: 40px;
+	border: 2px solid #99ca3c;
+	margin: 30px;
+	background-color: #fff;
+	background-image: url(../img/orangepattern.png);
+}
+
+#ModalThree {
+	padding: 40px;
+	border: 2px solid #99ca3c;
+	margin: 30px;
+	background-color: #fff;
+	background-image: url(../img/orangepattern.png);
+}
+
+#ModalFour {
+	padding: 40px;
+	border: 2px solid #99ca3c;
+	margin: 30px;
+	background-color: #fff;
+	background-image: url(../img/orangepattern.png);
+}
+
+.reveal-modal .close-reveal-modal {
+	color: #f59f20;
+}
+
+img.modalimg {
+	float: right;
+	display: inline;
+	border: 1px solid #401133;
+	margin: 20px;
+}
+
+p.modalp {
+	color: #401133;
+}
+ 
+h2.modaltitle {
+	font-family: 'Slackey', cursive;
+	font-size: 2.25rem;
+	text-align: center;
+	color: #401133;
+}
+
+/* ABOUT PAGE SPECIFIC STYLES */
+
+#about h1 {
+	font-family: 'Slackey', cursive;
+	font-size: 2.25rem;
+	color: #235954;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 10px;
+}
+
+#about h3 {
+	font-family: 'Slackey', cursive;
+	font-size: 1.35rem;
+	text-align: center;
+	color: #235954;
+}
+
+#about p {
+	font-family: 'Slackey', cursive;
+	font-size: 1.25rem;
+	text-align: center;
+	color: #377e78;
+}
+
+#about img.about {
+	display: inline;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 10px;
+}
+
+#about button, .button {
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	background-color: #99ca3c; 
+	color: #377e78;
+	margin-bottom: .2rem;
+}
+
+#about button, .button:hover {
+	background-color: #377e78; 
+	color: #fff;
+}
+
+#about li.about {
+	font-family: 'Slackey', cursive;
+	font-size: 1rem;
+	text-align: center;
+	color: #377e78;
+}
+
+#about label.about {
+	font-family: 'Slackey', cursive;
+	font-size: 1.25rem;
+	text-align: center;
+	color: #235954;
+}
+
+#about hr {
+	color: #99ca3c;
+	background-color: #99ca3c;
+	border: solid #99ca3c;
+	border-width: 1px 0 0;
+  	clear: both;
+  	height: 0;
+}
+
+/* FUN FELINE FACTS PAGE SPECIFIC STYLES */
+
+#felinefacts img.felinefacts {
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 10px;
+}
+
+#felinefacts h1 {
+	font-family: 'Slackey', cursive;
+	font-size: 2.25rem;
+	color: #235954;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	padding: 10px;	
+}
+
+/*ACCORDIAN STYLING */
+
+.accordion .accordion-navigation>a {
+	font-family: 'Slackey', cursive;
+	background-color: #99ca3c;
+  	color: #377e78;
+}
+
+.accordion .accordion-navigation>a:hover {
+	background-color: #99ca3c;
+	color: #fff;
+}
+
+.accordion .accordion-navigation.active>a {
+	background-color: #377e78;
+	color: #99ca3c;
+}
+
+img.accordianimagefloat {
+	float: left;
+	margin-right: 20px;
+	border: 1px solid #401133;
+}
+
+p.accordiantext {
+	color: #401133;
+	clear: right;
+	padding: 10px;
+}
+
+/*FOOTER STYLING*/
+
+footer {
+	background-color: #f59f20;
+	text-align:center;
+}
+
+footer h5 small {
+	color: #401133;
+}
+
+footer a {
+	color: #fff;
+	text-align: center;
+}
+
+footer a:hover {
+	color: #401133;
+	text-align: center;
+}
+
+.facebook {
+	font-size: 2em;
+	padding-right: 1rem;
+	line-height: 1;
+}
+
+.twitter {
+	font-size: 2em;
+	padding-right: 1rem;
+}
+
+.instagram {
+	font-size: 2em;
+}
+
+/*WHY ADOPT PAW BULLET LIST STYLES*/
+
+#whyadoptsidebar {
+	border: 2px double #99ca3c;
+	margin: 10px;
+	padding: 15px 15px 15px 25px;
+	background-image: url(../img/orangepattern.png);
+}
+
+#whyadoptsidebar h2 {
+	font-family: 'Slackey', cursive;
+	color: #361433;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+@font-face {
+  font-family: "foundation-icons";
+  src: url("../fonts/foundation-icons.eot");
+  src: url("../fonts/foundation-icons.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/foundation-icons.woff") format("woff"),
+       url("../fonts/foundation-icons.ttf") format("truetype"),
+       url("../fonts/foundation-icons.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul.icon {
+    list-style-type: none;
+}
+ 
+ul.icon li {
+    text-indent: -1.4em;
+}
+
+ul.icon li:before {
+    font-family: "foundation-icons";
+    content: "\f192";
+    float: left;
+    width: 1.4em;
+    color: #f59f20;
+}
+
+li.paw {
+	font-family: 'Raleway', sans-serif;
+	color: #361433; 
+}
+
+
